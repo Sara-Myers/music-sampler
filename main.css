@@ -1,0 +1,87 @@
+html {
+    background: #f5f5f5;
+}
+body {
+    background: #fff;
+    max-width: 70%;
+    margin: 0 auto;
+    text-align:center;
+    font-family: 'Space-Grotesk', 'Trebuchet MS', sans-serif;
+}
+
+#largeimage {
+    max-width: 100%;
+}
+
+h1, h2 {
+    font-family: 'Audiowide', 'Georgia', serif;
+}
+
+.musicPlayerDiv {
+    background: #ff8b67;
+    padding: 0.25rem 2rem 1rem;
+    border-radius: 10px;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+
+#container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+#description {
+    max-width: 60%;
+    margin: auto;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+footer {
+    padding: 2rem 3rem;
+    background: #303030;
+    color: #fff;
+}
+
+a {
+    color: #f97127;
+}
+
+a:hover {
+    color: #c8c8c8;
+}
+
+
+@media screen and (min-width: 1000px) {
+    #description {
+        width: 600px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body {
+        max-width: 100%;
+    }
+    
+    #description {
+        max-width: 90%;
+    }
+
+    #container {
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+}
